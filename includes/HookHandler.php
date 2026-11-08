@@ -2,8 +2,8 @@
 
 namespace MediaWiki\Extension\Cloudflare;
 
-use Config;
-use ManualLogEntry;
+use MediaWiki\Config\Config;
+use MediaWiki\Logging\ManualLogEntry;
 use MediaWiki\Hook\LocalFilePurgeThumbnailsHook;
 use MediaWiki\Hook\PageMoveCompleteHook;
 use MediaWiki\Page\Hook\ArticlePurgeHook;

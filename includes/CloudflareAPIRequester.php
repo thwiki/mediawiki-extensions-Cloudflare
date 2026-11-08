@@ -2,7 +2,7 @@
 
 namespace MediaWiki\Extension\Cloudflare;
 
-use Config;
+use MediaWiki\Config\Config;
 use GuzzleHttp\Exception\RequestException;
 use MediaWiki\Http\HttpRequestFactory;
 use Psr\Log\LoggerInterface;
