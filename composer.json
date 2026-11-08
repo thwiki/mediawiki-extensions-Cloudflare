@@ -12,11 +12,11 @@
   ],
   "autoload": {
     "psr-4": {
-      "MediaWiki\\Extension\\Clouflare\\": "includes/"
+      "MediaWiki\\Extension\\Cloudflare\\": "includes/"
     }
   },
   "require": {
-    "php": ">=7.4",
+    "php": ">=8.0",
     "composer/installers": "^2.0"
   },
   "require-dev": {
